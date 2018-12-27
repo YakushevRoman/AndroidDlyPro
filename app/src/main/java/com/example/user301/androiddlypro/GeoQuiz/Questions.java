@@ -1,4 +1,4 @@
-package com.example.user301.androiddlypro;
+package com.example.user301.androiddlypro.GeoQuiz;
 
 public class Questions {
     private int question;
