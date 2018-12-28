@@ -17,8 +17,18 @@
             </intent-filter>
         </activity>
         <activity android:name=".GeoQuiz.GeoQuiz" />
+
         <activity android:name=".GeoQuiz.ShowAnswerActivity" />
-        <activity android:name=".CriminalIntent.CriminalIntent"></activity>
+
+        <activity android:name=".CriminalIntent.CrimeListActivity">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CriminalIntent.CriminalIntent">
+        </activity>
     </application>
 
 </manifest>

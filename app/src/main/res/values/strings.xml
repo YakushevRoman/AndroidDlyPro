@@ -23,4 +23,10 @@
     <string name="judgment_toast">Cheating is wrong</string>
     <string name="criminalintent">CriminalIntent</string>
     <string name="enter_a_title_for_the_crime">Enter a title for the crime.</string>
+    <string name="title">Title</string>
+    <string name="details">Details</string>
+    <string name="solved">Solved</string>
+    <string name="crime_list_res_one">Crime # :</string>
+    <string name="crim_title">Crime Title</string>
+    <string name="crim_data">Crim Data</string>
 </resources>
