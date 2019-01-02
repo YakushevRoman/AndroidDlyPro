@@ -15,13 +15,12 @@ public class CrimeLab {
     private CrimeLab (Context context){
         mCrimes = new ArrayList<>();
         //инициализуруем список
-        for (int i = 0; i < 100; i++) {
+        /*for (int i = 0; i < 100; i++) {
             Crime crime = new Crime();
             crime.setmTitle(context.getString(R.string.crime_list_res_one) + i );
             crime.setmSolved(i%2 == 0);
-            mCrimes.add(crime);
+            mCrimes.add(crime);*/
         }
-    }
     // возврат обьекта если он еще не находится в памяти
     public static CrimeLab get (Context context){
         if (sCrimeLab == null){
@@ -41,6 +40,10 @@ public class CrimeLab {
             }
         }
         return null;
+    }
+
+    public void addCrime (Crime c){
+        mCrimes.add(c);
     }
 
 }

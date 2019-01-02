@@ -33,6 +33,10 @@ public class Crime {
         return mDate;
     }
 
+    public void setmDate(Date mDate) {
+        this.mDate = mDate;
+    }
+
     public boolean ismSolved() {
         return mSolved;
     }
